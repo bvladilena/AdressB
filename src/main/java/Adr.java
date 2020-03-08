@@ -20,7 +20,7 @@ public class Adr{
     TreeMap<String, Address> book = new TreeMap<String, Address>();
 
     public Adre() {
-        System.out.println("Книга создана");
+        System.out.println("Книга создана") ;
     }
 
     public void newAddress(String name, String street, int house, int flat) {
