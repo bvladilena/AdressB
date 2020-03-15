@@ -11,6 +11,9 @@ public class Adr{
         System.out.println(book.getAddress("Vlada"));
         System.out.println(book.getByStreet("Uliza").length);
         System.out.println(book.getByHouse("Uliza",1).length);
+        book.deleteAddress("Vlada");//, "Prospect", 3, 2465);
+        System.out.println(book.getAddress("Vlada"));
+
     }
 }
 //пока что вместо тестов
